@@ -41,13 +41,13 @@ class B extends Marks{
 class Task2{
     public static void main(String[] args){
 
-        A studentA = new A(80, 90, 70);   //creating object of class A
-        double percentage1 = studentA.getPercentage(); //object of class A calling its getPercentage() function
-        B studentB = new B(90, 67, 49, 60);  //creating object of class B
-        double percentage2 = studentB.getPercentage(); //object of class B calling its getPercentage() function
+        A studentA = new A(80, 90, 70);
+        double per1 = studentA.getPercentage();
+        B studentB = new B(90, 67, 49, 60);
+        double per2 = studentB.getPercentage();
 
-        System.out.println(percentage1);
-        System.out.println(percentage2);
+        System.out.println(per1);
+        System.out.println(per2);
     }
 }
 
